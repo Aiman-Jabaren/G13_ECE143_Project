@@ -1,10 +1,10 @@
 # Diabetees: Analysis of Trends and Correlations
 
 ## Team Members
-Aiman Jabaren
-Shashank John Peter Solomon
-Tejas Sadarahalli 
-Treven Moore
+- Aiman Jabaren
+- Shashank John Peter Solomon
+- Tejas Sadarahalli 
+- Treven Moore
  
 ## Problem:
 Analysis of Diabetic Data to find different trends and correlation
