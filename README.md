@@ -28,7 +28,7 @@ We can summarize the following:
 - We have mainly used public Python libraries in order to process the data. 
 - Some of the processing we have implemented was: calculating averages of diabetics and overweight population in different countries, calculated correlation between diabetes' possible risk factors, normalized risk factors per country and per county, plotted diabetes prevalence according to age and years and subdivided population into subgroups of diabetes treatment and awareness.
 - We have used Python libraries and platfroms such as Geopandas, Bokeh, Matplotlib, Seaborn, Plotly and HoloViews in order to visualize and infer from the processed data
-- 
+
 ## Dataset:
 Statistics from World Health Organization (WHO), Center for Disease Control and Prevention (CDC) the links to the our dataset are:
 ```
