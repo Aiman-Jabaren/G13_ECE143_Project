@@ -15,6 +15,7 @@
 
 ## Dataset:
 Statistics from World Health Organization (WHO), Center for Disease Control and Prevention (CDC) the links to the our dataset are:
+```
         https://www.cdc.gov/nchs/nhis/nhis_2017_data_release.htm
         https://www.cdc.gov/diabetes/statistics/slides/long_term_trends.pdf
         https://www.medicalnewstoday.com/articles/318472.php
@@ -29,7 +30,7 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
         https://healthmetrics.heart.org/prevalence-of-prediabetes-and-diabetes-in-the-united-states-1999-2016-stacked-bar-graph/
         http://ncdrisc.org/multiple-factors.html
         https://healthmetrics.heart.org/prevalence-of-prediabetes-and-diabetes-in-the-united-states-1999-2016-stacked-bar-graph/
-
+```
 ## File Structure:
 
 ## Instructions on Running Code:
@@ -50,3 +51,17 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
 4. plotly 
 5. holoviews
 6. hvplot.pandas
+
+For installing these packages, you can use either pip to install packages. For example,
+
+```
+pip3 install numpy
+```
+
+if your using anaconda you can use:
+
+```
+conda install numpy
+```
+
+### Run the code 
