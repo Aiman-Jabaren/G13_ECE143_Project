@@ -19,6 +19,7 @@ We can summarize the following:
 - Diabetes treatment and awareness varies according to income class and is violatile, likely due to the changing costs of healthcare.
 - The average diabetic person's age rises with time which means the population as a whole is getting healthier.
 - Diabetics are more likely to die before the age of 70 when compared to the rest of the population.
+- Although both BMI and blood pressure are coorelated to diabetes, BMI is a much better metric to predict rates of diabetes in a population. This is especially true for populations with high rates of BMI.
 
 ## Methodology:
 - After a diabetes overview research, we summarized the main points of interests for investigating diabetes.
