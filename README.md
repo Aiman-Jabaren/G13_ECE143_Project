@@ -84,6 +84,8 @@ Root
 |
 |To Plot age vs Diabetes Plots - Use Functions
 |       - bar_plots_age.py (to plot bar plots of age distribution given age column from CSV file)
+|
+|To Plot mean age trends in US - Use Functions
 |       - plot_mean_age.py (to plot line plot for mean age trend in US using data from bar_plots_age.py)
 |
 |To Plot the stacked bar plots for different income groups - Use Functions
