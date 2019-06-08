@@ -110,7 +110,7 @@ Root
 
 #### Plotting Packages
 
-1. Seaborn
+1. seaborn
 2. geopandas
 3. matplotlib.pyplot
 4. plotly 
