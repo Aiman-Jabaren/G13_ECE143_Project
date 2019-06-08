@@ -1,13 +1,13 @@
 # Diabetees: Analysis of Trends and Correlations
 
 ## Team Members
-        Tejas Sadarahalli 
-        Shashank John Peter Solomon
-        Aiman Jabaren
-        Treven Moore
+- Aiman Jabaren 
+- Shashank John Peter Solomon
+- Tejas Sadarahalli
+- Treven Moore
 
 ## Problem:
-        Analysis of Diabetic Data to find different trends and correlation
+Analysis of Diabetic Data to find different trends and correlation
 
 ## Summary:
 - Diabetes is one of the leading causes of death in the modern world. In order to fight diabetes, it needs to be studied and analyzed thoroughly. In this project, we have investigated diabetes statistics from different angles.
