@@ -57,6 +57,9 @@ Root
 +----ne_10m_admin_0_countries_lakes
 |    (contains the required files for the world map's geopandas plot)
 |
+|All the required imports are in the function 
+|       - required_imports.py
+|
 |To Plot the two world maps - Use Functions 
 |
 |To Plot the Radar PLot for Related Risk Factors for 5 countries with Highest/Lowest Diabetes Prevelence and their averages - Use 
