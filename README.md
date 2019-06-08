@@ -1,23 +1,15 @@
 # Diabetees: Analysis of Trends and Correlations
 
-## Team Members:
-- Aiman Jabaren
-- Shashank John Peter Solomon
-- Tejas Sadarahalli 
-- Treven Moore
- 
+## Team Members
+        Tejas Sadarahalli 
+        Shashank John Peter Solomon
+        Aiman Jabaren
+        Treven Moore
+
 ## Problem:
-Analysis of Diabetic Data to find different trends and correlation
+        Analysis of Diabetic Data to find different trends and correlation
 
 ## Summary:
-- Diabetes is one of the leading causes of death in the modern world. In order to fight diabetes, it needs to be studied and analyzed thoroughly. In this project, we have investigated diabetes statistics from different angles.
-        We study diabetes prevalence in the globe and the reasons its prevalent varies, the risk factors of diabetes and the possible correlations with these risk factors. We also look into diabetes prevalence according to age and years. 
-We can summarize the following:
-- It has very high correlation with Obesity; It may cause Obesity, vice versa or that they both share the same risk factors.
-- It has very high correlation with physical activity.
-- Diabetes treatment and awareness varies according to income class
-- The average diabetic person's age rises with time which means the population as whole is getting healthier.
-- Diabetics are more likely to die before the age of 70 when compared to the rest of the population.
 
 ## Methodology:
 - After a diabetes overview research, we summarized the main points of interests for investigating diabetes.
@@ -27,7 +19,7 @@ We can summarize the following:
 - We have mainly used public Python libraries in order to process the data. 
 - Some of the processing we have implemnted was: calculating averages of diabetics and overweight population in different countries, calculated correclation between diabetes possible risk factors, normalized risk factors per country and per county, plotted diabetes prevalence according to age and years and subdivided population into subgroups of diabetes treatment and awareness.
 - We have used Python libraries and platfroms such as Geopandas, Bokeh, Matplotlib, Seaborn, Plotly and HoloViews in order to visualize and infer from the processed data
-
+- 
 ## Dataset:
 Statistics from World Health Organization (WHO), Center for Disease Control and Prevention (CDC) the links to the our dataset are:
 ```
@@ -48,27 +40,6 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
 ```
 ## File Structure:
 
-```
-Root
-|
-+----Bokeh_images
-     (contains images for bokeh/holoviws plots, The holviews plot from the income_plot.py get saved to this folder)
-|
-+----ne_10m_admin_0_countries_lakes
-|    (contains the required files for the world map's geopandas plot)
-|
-|DataToPlot - 
-
-|
-+----scripts
-|       |   create_processed_data.py
-|       |   word_freq.py
-|       |   SQLite.py
-|       |   common_words.txt
-|       |   Industry_words.txt
-|
-```
-
 ## Instructions on Running Code:
 
 -Python version: Python 3.6.6 64-bit
@@ -79,7 +50,7 @@ Root
 2. pandas
 3. sklearn 
 
-### Plotting Packages:
+#### Plotting Packages
 
 1. Seaborn
 2. geopandas
