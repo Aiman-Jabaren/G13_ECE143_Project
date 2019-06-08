@@ -65,7 +65,7 @@ Root
 |To Plot the two world maps - Use Functions 
 |       - download_pdf.py (to download PDFS from WHO site)
 |       - read_pdf.py (to parse pdf files and compile a CSV dataset)
-|       - <COMPLETE>
+|       - plot_world_map.py (to plot World maps given data from excel spreadsheet. Reorganizes input data. It imports and matches countries' codes and locations to supplied data)  
 |
 |To Plot the Radar Plot for Related Risk Factors for 5 countries with Highest/Lowest Diabetes Prevelence and their averages - Use 
 |functions
