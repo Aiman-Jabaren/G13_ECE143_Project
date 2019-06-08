@@ -74,11 +74,11 @@ Root
 |       - DatToPlot.py (to plot radar plot using data returned from gender_prevelance.py)
 |
 |To Plot the three US Map - Use Functions 
-|
+|       -      
 |To Plot the correlations plots - Use Functions
 |
 |To Plot the radar plots for racial distribution - Use Functions
-|
+|       - plot_race_radar.py (to plot radar plots given age column from CSV file, returns plotly figure to be plotted with plotly's |plotting functions)
 |To Plot age vs Diabetes Plots - Use Functions
 |
 |To Plot the stacked bar plots for different income groups - Use Functions
