@@ -30,8 +30,9 @@ We can summarize the following:
 - We have used Python libraries and platfroms such as Geopandas, Bokeh, Matplotlib, Seaborn, Plotly and HoloViews in order to visualize and infer from the processed data
 
 ## Dataset:
-Statistics from World Health Organization (WHO), Center for Disease Control and Prevention (CDC) the links to the our dataset are:
+We used statistics from World Health Organization (WHO), Center for Disease Control and Prevention (CDC) and others. The links to our dataset are:
 ```
+        https://www.cdc.gov/diabetes/data/countydata/countydataindicators.html
         https://www.cdc.gov/nchs/nhis/nhis_2017_data_release.htm
         https://www.cdc.gov/diabetes/statistics/slides/long_term_trends.pdf
         https://www.medicalnewstoday.com/articles/318472.php
