@@ -74,14 +74,16 @@ Root
 |       - DatToPlot.py (to plot radar plot using data returned from gender_prevelance.py)
 |
 |To Plot the three US Map - Use Functions 
-|       -      
+|       - plot_us_maps.py (to plot US maps given data from excel spreadsheet. Will reorganise input data. Returns plotly figureto be |plotted with plotly's plotting functions)     
 |To Plot the correlations plots - Use Functions
+|       - correlation_plot.py (to plot seaborn correlation plots between two given pd.Series)
 |
 |To Plot the radar plots for racial distribution - Use Functions
 |       - plot_race_radar.py (to plot radar plots from CSV file, returns plotly figure to be plotted with plotly's plotting functions)
 |
 |To Plot age vs Diabetes Plots - Use Functions
 |       - bar_plots_age.py (to plot bar plots of age distribution given age column from CSV file)
+|       - plot_mean_age.py (to plot line plot for mean age trend in US using data from bar_plots_age.py)
 |
 |To Plot the stacked bar plots for different income groups - Use Functions
 |       - income_plot.py (to plot the stacked bar plot for every income group, after loading csv file)
@@ -113,7 +115,7 @@ For installing these packages, you can use either pip to install packages. For e
 pip3 install numpy
 ```
 
-If you're using anaconda you can use:
+if your using anaconda you can use:
 
 ```
 conda install numpy
