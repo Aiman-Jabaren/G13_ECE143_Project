@@ -48,6 +48,27 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
 ```
 ## File Structure:
 
+```
+Root
+|
++----Bokeh_images
+     (contains images for bokeh/holoviws plots, The holviews plot from the income_plot.py get saved to this folder)
+|
++----ne_10m_admin_0_countries_lakes
+|    (contains the required files for the world map's geopandas plot)
+|
+|DataToPlot - 
+
+|
++----scripts
+|       |   create_processed_data.py
+|       |   word_freq.py
+|       |   SQLite.py
+|       |   common_words.txt
+|       |   Industry_words.txt
+|
+```
+
 ## Instructions on Running Code:
 
 -Python version: Python 3.6.6 64-bit
