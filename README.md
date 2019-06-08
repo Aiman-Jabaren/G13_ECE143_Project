@@ -1,6 +1,6 @@
 # Diabetees: Analysis of Trends and Correlations
 
-## Team Members
+## Team Members:
 - Aiman Jabaren
 - Shashank John Peter Solomon
 - Tejas Sadarahalli 
@@ -9,7 +9,7 @@
 ## Problem:
 Analysis of Diabetic Data to find different trends and correlation
 
-## Summary
+## Summary:
 - Diabetes is one of the leading causes of death in the modern world. In order to fight diabetes, it needs to be studied and analyzed thoroughly. In this project, we have investigated diabetes statistics from different angles.
         We study diabetes prevalence in the globe and the reasons its prevalent varies, the risk factors of diabetes and the possible correlations with these risk factors. We also look into diabetes prevalence according to age and years. 
 We can summarize the following:
@@ -58,7 +58,7 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
 2. pandas
 3. sklearn 
 
-#### Plotting Packages
+### Plotting Packages:
 
 1. Seaborn
 2. geopandas
