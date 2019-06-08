@@ -122,7 +122,7 @@ For installing these packages, you can use either pip to install packages. For e
 pip3 install numpy
 ```
 
-if your using anaconda you can use:
+if you are using anaconda you can use:
 
 ```
 conda install numpy
