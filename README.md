@@ -102,7 +102,10 @@ Root
 
 1. numpy
 2. pandas
-3. sklearn 
+3. sklearn
+4. BeautifulSoup
+5. PyPDF2
+6. pycountry
 
 #### Plotting Packages
 
