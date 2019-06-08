@@ -1,13 +1,13 @@
 # Diabetees: Analysis of Trends and Correlations
 
 ## Team Members
-        Tejas Sadarahalli 
-        Shashank John Peter Solomon
-        Aiman Jabaren
-        Treven Moore
+- Aiman Jabaren 
+- Shashank John Peter Solomon
+- Tejas Sadarahalli
+- Treven Moore
 
 ## Problem:
-        Analysis of Diabetic Data to find different trends and correlation
+Analysis of Diabetic Data to find different trends and correlation
 
 ## Summary:
 - Diabetes is one of the leading causes of death in the modern world. In order to fight diabetes, it needs to be studied and analyzed thoroughly. In this project, we have investigated diabetes statistics from different angles.
@@ -48,6 +48,37 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
 ```
 ## File Structure:
 
+```
+Root
+|
++----Bokeh_images
+     (contains images for bokeh/holoviws plots, The holviews plot from the income_plot.py get saved to this folder)
+|
++----ne_10m_admin_0_countries_lakes
+|    (contains the required files for the world map's geopandas plot)
+|
+|To Plot the two world maps - Use Functions 
+|
+|To Plot the Radar PLot for Related Risk Factors for 5 countries with Highest/Lowest Diabetes Prevelence and their averages - Use 
+|functions
+|       - cleanup_radar.py (clean up the loaded CSV files)
+|       - normalize_0to1.py (normalize the data returned from cleanup_radar.py)
+|       - gender_prevelance.py (Extract data once for Top 5 countries and once for bottom 5 countries using the data returned from normalize_0to1)
+|       - DatToPlot.py (to plot radar plot using data returned from gender_prevelance.py)
+|
+|To Plot the three US Map - Use Functions 
+|
+|To Plot the correlations plots - Use Functions
+|
+|To Plot the radar plots for racial distribution - Use Functions
+|
+|To Plot age vs Diabetes Plots - Use Functions
+|
+|To Plot the stacked bar plots for different income groups - Use Functions
+|       - income_plot.py (to plot the stacked bar plot for every income group, after loading csv file)
+|
+```
+
 ## Instructions on Running Code:
 
 -Python version: Python 3.6.6 64-bit
@@ -80,3 +111,5 @@ conda install numpy
 ```
 
 ### Run the code 
+
+Run the appropriate functions for the plots you want by refereing to the file structure section above.
