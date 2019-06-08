@@ -78,8 +78,10 @@ Root
 |To Plot the correlations plots - Use Functions
 |
 |To Plot the radar plots for racial distribution - Use Functions
-|       - plot_race_radar.py (to plot radar plots given age column from CSV file, returns plotly figure to be plotted with plotly's |plotting functions)
+|       - plot_race_radar.py (to plot radar plots from CSV file, returns plotly figure to be plotted with plotly's plotting functions)
+|
 |To Plot age vs Diabetes Plots - Use Functions
+|       - bar_plots_age.py (to plot bar plots of age distribution given age column from CSV file)
 |
 |To Plot the stacked bar plots for different income groups - Use Functions
 |       - income_plot.py (to plot the stacked bar plot for every income group, after loading csv file)
