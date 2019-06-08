@@ -15,9 +15,12 @@ def required_imports():
     import matplotlib.pyplot as plt
     
     import plotly 
-    plotly.tools.set_credentials_file(username='tsadarah', api_key='fGstUNrmQhbpYD55Oth5')
     import plotly.plotly as py
+    import plotly.io as pio
     import plotly.graph_objs as go
+    from IPython.display import Image
+    from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+    init_notebook_mode(connected=True)
     
     import hvplot.pandas
     import holoviews as hv
