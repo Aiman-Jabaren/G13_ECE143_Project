@@ -5,13 +5,13 @@ import seaborn as sns
 
 def plot_correlation(x,y,title,xlabel=None,ylabel=None,blank='dots'):
     '''
-    Funciton to plot correlation plots in seabordn
+    Funciton to plot correlation plots in seaborn
     
     :param: x
-    :type: pandas DataFrame
+    :type: pandas Series
     
     :param: y
-    :type: pandas DataFrame
+    :type: pandas Series
     
     :param: title
     :type: str
