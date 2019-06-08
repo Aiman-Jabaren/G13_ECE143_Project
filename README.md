@@ -63,7 +63,7 @@ Root
 |functions
 |       - cleanup_radar.py (clean up the loaded CSV files)
 |       - normalize_0to1.py (normalize the data returned from cleanup_radar.py)
-|       - gender_prevelance.py (Extract data once for Top 5 countries and once for bottom 5 countries using the data returned from |    |                               normalize_0to1)
+|       - gender_prevelance.py (Extract data once for Top 5 countries and once for bottom 5 countries using the data returned fro normalize_0to1)
 |       - DatToPlot.py (to plot radar plot using data returned from gender_prevelance.py)
 |
 |To Plot the three US Map - Use Functions 
