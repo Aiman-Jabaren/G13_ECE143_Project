@@ -50,3 +50,17 @@ Statistics from World Health Organization (WHO), Center for Disease Control and 
 4. plotly 
 5. holoviews
 6. hvplot.pandas
+
+For installing these packages, you can use either pip to install packages. For example,
+
+'''
+pip3 install numpy
+'''
+
+if your using anaconda you can use:
+
+'''
+conda install numpy
+'''
+
+### Run the code 
