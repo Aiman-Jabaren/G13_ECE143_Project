@@ -10,6 +10,14 @@
         Analysis of Diabetic Data to find different trends and correlation
 
 ## Summary:
+- Diabetes is one of the leading causes of death in the modern world. In order to fight diabetes, it needs to be studied and analyzed thoroughly. In this project, we have investigated diabetes statistics from different angles.
+- We study diabetes prevalence in the globe and the reasons its prevalent varies, the risk factors of diabetes and the possible correlations with these risk factors. We also look into diabetes prevalence according to age and years. 
+We can summarize the following:
+- It has very high correlation with Obesity; It may cause Obesity, vice versa or that they both share the same risk factors.
+- It has very high correlation with physical activity.
+- Diabetes treatment and awareness varies according to income class
+- The average diabetic person's age rises with time which means the population as whole is getting healthier.
+- Diabetics are more likely to die before the age of 70 when compared to the rest of the population.
 
 ## Methodology:
 - After a diabetes overview research, we summarized the main points of interests for investigating diabetes.
