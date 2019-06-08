@@ -3,6 +3,7 @@ def required_imports():
     Import all the required libraries
     '''
     
+    ## Import libraries 
     import os
     import re
     import numpy as np
@@ -10,6 +11,7 @@ def required_imports():
     from helpers import slug
     from sklearn import preprocessing
     
+    ## Import Plotting Packages
     import seaborn as sns
     import geopandas as gpd
     import matplotlib.pyplot as plt
@@ -25,5 +27,12 @@ def required_imports():
     import hvplot.pandas
     import holoviews as hv
     hv.extension('bokeh')
+
+    ## Import custom functions
+    import plot_us_maps as pum
+    import correlation_plot as cp
+    import plot_race_radar as prr
+    import bar_plots_age as bpa
+    import plot_mean_age as pma
     
     return
