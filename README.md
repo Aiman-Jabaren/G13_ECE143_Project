@@ -1,4 +1,4 @@
-# Diabetees: Analysis of Trends and Correlations
+# Diabetes: Analysis of Trends and Correlations
 
 ## Team Members
 - Aiman Jabaren 
@@ -7,15 +7,16 @@
 - Treven Moore
 
 ## Problem:
-Analysis of Diabetic Data to find different trends and correlation
+Analysis of Diabetic Data to find different trends and correlations
 
 ## Summary:
 - Diabetes is one of the leading causes of death in the modern world. In order to fight diabetes, it needs to be studied and analyzed thoroughly. In this project, we have investigated diabetes statistics from different angles.
-- We study diabetes prevalence in the globe and the reasons its prevalent varies, the risk factors of diabetes and the possible correlations with these risk factors. We also look into diabetes prevalence according to age and years. 
+- We study diabetes prevalence around the globe and the reasons its prevalence varies, the risk factors of diabetes and the possible correlations with these risk factors.
+-We also look into diabetes prevalence according to age and years, as well as the number of people with access to treatment across income groups and years.
 We can summarize the following:
-- It has very high correlation with Obesity; It may cause Obesity, vice versa or that they both share the same risk factors.
-- It has very high correlation with physical activity.
-- Diabetes treatment and awareness varies according to income class
+- It has very high correlation with obesity; It may cause obesity, vice versa, or they both share the same risk factors.
+- It has very high correlation with lack of physical activity.
+- Diabetes treatment and awareness varies according to income class.
 - The average diabetic person's age rises with time which means the population as whole is getting healthier.
 - Diabetics are more likely to die before the age of 70 when compared to the rest of the population.
 
@@ -25,9 +26,9 @@ We can summarize the following:
 - We filtered the datasets according to credibility and interest
 - We summarized the possible datasets/ plots we need in order to answer the questions
 - We have mainly used public Python libraries in order to process the data. 
-- Some of the processing we have implemnted was: calculating averages of diabetics and overweight population in different countries, calculated correclation between diabetes possible risk factors, normalized risk factors per country and per county, plotted diabetes prevalence according to age and years and subdivided population into subgroups of diabetes treatment and awareness.
+- Some of the processing we have implemented was: calculating averages of diabetics and overweight population in different countries, calculated correlation between diabetes' possible risk factors, normalized risk factors per country and per county, plotted diabetes prevalence according to age and years and subdivided population into subgroups of diabetes treatment and awareness.
 - We have used Python libraries and platfroms such as Geopandas, Bokeh, Matplotlib, Seaborn, Plotly and HoloViews in order to visualize and infer from the processed data
-- 
+
 ## Dataset:
 Statistics from World Health Organization (WHO), Center for Disease Control and Prevention (CDC) the links to the our dataset are:
 ```
@@ -61,8 +62,11 @@ Root
 |       - required_imports.py
 |
 |To Plot the two world maps - Use Functions 
+|       - download_pdf.py (to download PDFS from WHO site)
+|       - read_pdf.py (to parse pdf files and compile a CSV dataset)
+|       - <COMPLETE>
 |
-|To Plot the Radar PLot for Related Risk Factors for 5 countries with Highest/Lowest Diabetes Prevelence and their averages - Use 
+|To Plot the Radar Plot for Related Risk Factors for 5 countries with Highest/Lowest Diabetes Prevelence and their averages - Use 
 |functions
 |       - cleanup_radar.py (clean up the loaded CSV files)
 |       - normalize_0to1.py (normalize the data returned from cleanup_radar.py)
@@ -70,12 +74,14 @@ Root
 |       - DatToPlot.py (to plot radar plot using data returned from gender_prevelance.py)
 |
 |To Plot the three US Map - Use Functions 
-|
+|       -      
 |To Plot the correlations plots - Use Functions
 |
 |To Plot the radar plots for racial distribution - Use Functions
+|       - plot_race_radar.py (to plot radar plots from CSV file, returns plotly figure to be plotted with plotly's plotting functions)
 |
 |To Plot age vs Diabetes Plots - Use Functions
+|       - bar_plots_age.py (to plot bar plots of age distribution given age column from CSV file)
 |
 |To Plot the stacked bar plots for different income groups - Use Functions
 |       - income_plot.py (to plot the stacked bar plot for every income group, after loading csv file)
