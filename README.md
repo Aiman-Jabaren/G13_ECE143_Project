@@ -62,6 +62,8 @@ Root
 |All the required imports are in the function 
 |       - required_imports.py
 |
+|valid_cmap_d.py, helpers.py & desktop.ini - are used as helper file (dependency files) for plotting the geopandas world map plots accuratly
+|
 |To Plot the two world maps - Use Functions 
 |       - download_pdf.py (to download PDFS from WHO site)
 |       - read_pdf.py (to parse pdf files and compile a CSV dataset)
@@ -91,7 +93,6 @@ Root
 |
 |To Plot the stacked bar plots for different income groups - Use Functions
 |       - income_plot.py (to plot the stacked bar plot for every income group, after loading csv file)
-|
 ```
 
 ## Instructions on Running Code:
