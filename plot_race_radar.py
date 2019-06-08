@@ -15,7 +15,7 @@ def plot_race_radar(df,year,color):
     :type: str
     :param: color
     :type: str
-    :returns: plotty plot
+    :returns: plotly figure
     '''
     assert isinstance(df,pd.DataFrame)
     assert isinstance(year,str)
